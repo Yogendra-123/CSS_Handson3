@@ -151,3 +151,52 @@ html{
     
 }
     
+
+
+.flex-container2{
+    display: flex;
+    flex-flow: row;
+    flex-wrap: wrap;
+    position: relative;
+}
+
+
+.flex-items{
+    border: 1px solid purple;
+    background-color: rgb(209, 209, 95);
+    color: black;
+    margin: 5px;
+    margin-bottom: 5px;
+    height: 300px;
+    width: 400px;
+    font-size: 20px;
+    text-align: center;
+    font-weight: 900;    
+    font-style: italic;
+    
+}
+.flex-items1{
+    border: 1px solid purple;
+    background-color: rgb(209, 209, 95);
+    color: black;
+    margin: 5px;
+    margin-bottom: 5px;
+    height: 300px;
+    width: 813px;
+    padding-left: -10px;
+    font-size: 20px;
+    text-align: center;
+    font-weight: 900;    
+    font-style: italic;
+    position: relative;
+    
+}
+.parent{
+    border: 8px solid purple;
+    background-color: darkgreen;
+    text-align: center;
+    font-style: italic;
+    width: 840px;
+    height: 750px;
+    margin-left: 350px;
+}
